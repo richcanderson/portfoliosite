@@ -10,13 +10,13 @@ def home(request):
     return render(request, 'blog/home.html', context)
 
 
-def about(request):
-    return render(request, 'blog/about.html', {'title': 'About'})
+def dbmsproject(request):
+    return render(request, 'blog/dbmsproject.html', {'title': 'DBMS Project'})
 
 
 def download_file(request):
     # fill these variables with real values
-    fl_path = '/about/'
+    fl_path = '/dbmsproject/'
     filename = 'dbreport.pdf'
 
 

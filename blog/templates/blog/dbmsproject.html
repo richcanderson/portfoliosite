@@ -1,0 +1,26 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+    <style>
+    h1 {
+        text-align: center;
+        text-align: justify;
+    }
+
+    </style>
+
+    <div class="space">
+<h1>This is a project that I created in Winter 2020/2021 for a DBMS class.</h1>
+</div>
+    <div class="space">
+<h1>Inside you'll find examples of SQL queries, data definition language, database diagrams, and more.</h1>
+    </div>
+    <a class="h1-link" href="{%static 'blog/dbreport.pdf'%}" download>
+
+        <h1>Download the report here.</h1>
+    </a>
+
+</div>
+
+
+{% endblock content %}
